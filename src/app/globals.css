@@ -1,0 +1,48 @@
+/* globals.css atau Quiz.module.css */
+
+.quiz-container {
+  max-width: 600px; /* Lebar maksimum kontainer kuis */
+  margin: 0 auto; /* Memusatkan kontainer */
+  padding: 20px; /* Jarak di dalam kontainer */
+  background-color: #ffffff; /* Warna latar belakang kontainer */
+  border-radius: 8px; /* Sudut melengkung */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+  text-align: center; /* Teks terpusat */
+}
+
+h1 {
+  color: #4CAF50; /* Warna hijau untuk skor */
+  margin-bottom: 20px; /* Jarak di bawah judul */
+}
+
+h2 {
+  color: #333333; /* Warna teks untuk pertanyaan */
+  margin-bottom: 15px; /* Jarak di bawah pertanyaan */
+}
+
+button {
+  padding: 10px 15px; /* Jarak dalam tombol */
+  margin: 10px 5px; /* Jarak antar tombol */
+  background-color: #0070f3; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Menghapus border */
+  border-radius: 5px; /* Sudut melengkung */
+  cursor: pointer; /* Menampilkan kursor tangan saat hover */
+  transition: background-color 0.3s, transform 0.2s; /* Animasi saat hover */
+  font-size: 16px; /* Ukuran font tombol */
+}
+
+button:hover {
+  background-color: #005bb5; /* Warna saat hover */
+  transform: scale(1.05); /* Sedikit membesar saat hover */
+}
+
+button:disabled {
+  background-color: #cccccc; /* Warna saat tombol dinonaktifkan */
+  cursor: not-allowed; /* Menampilkan kursor tidak diizinkan */
+}
+
+.selected {
+  background-color: #d4edda; /* Warna latar belakang untuk pilihan yang dipilih */
+  border: 2px solid #4CAF50; /* Border hijau untuk pilihan yang dipilih */
+}
